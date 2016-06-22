@@ -32,7 +32,7 @@
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target name="CIDemo">
-        <java classname="com.ci.dem.CIDemo" failonerror="true" fork="yes">
+        <java classname="com.ci.dem.CIDemo" failonerror="true" fork="true">
             <classpath refid="NIS.classpath"/>
         </java>
     </target>
